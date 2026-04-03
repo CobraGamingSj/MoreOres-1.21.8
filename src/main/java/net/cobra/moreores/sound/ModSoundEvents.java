@@ -19,6 +19,8 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_DEEPER = ModSoundEvents.registerReference("music_disc.deeper");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_WATCHER = ModSoundEvents.registerReference("music_disc.watcher");
 
+    public static final SoundEvent BLOCK_GEM_POLISHER_ENERGY_FILL = register("block.gem_polisher.energy.fill");
+
     private static RegistryEntry<SoundEvent> register(Identifier id, Identifier soundId, float distanceToTravel) {
         return Registry.registerReference(Registries.SOUND_EVENT, id, SoundEvent.of(soundId, distanceToTravel));
     }
