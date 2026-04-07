@@ -14,14 +14,6 @@
       }
     ]
   },
-  "block.gem_polisher.energy.fill": {
-    "category": "minecraft:block",
-    "sounds": [
-      {
-        "name": "moreores:energy_fill"
-      }
-    ]
-  },
   "music_disc.dreiton": {
     "category": "minecraft:record",
     "sounds": [
